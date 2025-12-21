@@ -1,0 +1,76 @@
+:root {
+  --bg-primary: #181111;
+  --bg-secondary: #251616;
+  --text-primary: #f8fafc;
+  --text-secondary: #a8a29e;
+  --accent-primary: #ef4444;
+  --accent-secondary: #f43f5e;
+  --glass-bg: rgba(37, 22, 22, 0.7);
+  --glass-border: rgba(239, 68, 68, 0.1);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+.section {
+  padding: var(--spacing-xl) 0;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
