@@ -7,22 +7,22 @@ const Skills = () => {
         {
             title: "Machine Learning",
             icon: <Cpu className="text-accent" size={32} />,
-            skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Computer Vision", "NLP", "LLMs", "Reinforcement Learning"]
+            skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Computer Vision", "LLMs", "Reinforcement Learning"]
         },
         {
             title: "Data Engineering",
             icon: <Database className="text-accent" size={32} />,
-            skills: ["SQL", "NoSQL", "Spark", "Hadoop", "Airflow", "ETL Pipelines", "Data Warehousing"]
+            skills: ["SQL", "NoSQL", "PySpark", "Hadoop", "Airflow", "ETL Pipelines", "Data Warehousing"]
         },
         {
             title: "Languages & Tools",
             icon: <Globe className="text-accent" size={32} />,
-            skills: ["Python", "R", "C++", "Docker", "Kubernetes", "Git", "AWS/GCP"]
+            skills: ["Python", "R", "C++", "Docker", "Kubernetes", "Git", "AWS/GCP", "Flask"]
         },
         {
             title: "Visualization",
             icon: <Server className="text-accent" size={32} />, // Placeholder icon
-            skills: ["Tableau", "PowerBI", "Matplotlib", "Seaborn", "D3.js", "Streamlit"]
+            skills: ["Tableau", "PowerBI", "Matplotlib", "Seaborn", "Streamlit"]
         }
     ];
 
